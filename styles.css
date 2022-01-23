@@ -1,0 +1,35 @@
+body {
+    background: white;
+}
+.message {
+    color: black;
+    text-align: center;
+    margin: 10px;
+    font-family: 'Helvetica', sans-serif;
+}
+.bingly-text {
+    color: #ee5da5;
+}
+
+.construction {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 20px;
+}
+
+.construction img {
+    width: 200px;
+    flex-grow: 0.5;
+    max-height: 400px;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 800px) {
+    .construction {
+        flex-direction: column;
+    }
+    .construction img {
+        max-height: 200px;
+    }
+}
