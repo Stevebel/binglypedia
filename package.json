@@ -1,0 +1,23 @@
+{
+  "name": "binglypedia",
+  "version": "0.0.1",
+  "description": "Binglypedia Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo No need to build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stevebel/binglypedia.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Stevebel/binglypedia/issues"
+  },
+  "homepage": "https://github.com/Stevebel/binglypedia#readme",
+  "devDependencies": {
+    "netlify-cli": "^8.13.0"
+  }
+}
